@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <h1>Registration Form:</h1>
+  <form class="form" id="formdetail">
+      <div class="form__input">
+        Name:<input type="text"  id="fname" required><span class="error"></span>
+      </div>
+      <div class="form__input">
+        E-mail:<input type="text" id="femail" required><span class="error"></span>
+      </div>
+      <div class="form__input">
+        Mobile No.:<input type="text" id="fphone" required><span class="error"></span>
+      </div>
+      <div class="form__input">
+        Password:<input type="password" id="fpassword" required><span class="error"></span>
+      </div>
+      <div class="form__input">
+        Confirm Password:<input type="password" id="confirm" required><span class="error"></span>
+      </div>
+      <div class="form__submit">
+        <input type="submit" id="submit" value="Submit"><span class="error"></span>
+      </div>
+  </form>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

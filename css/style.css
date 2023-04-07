@@ -1,0 +1,41 @@
+/* css reset */
+html {
+box-sizing: border-box;
+overflow: hidden;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+margin: 0;
+padding: 0;
+}
+
+/* Base Style */
+h1{
+    text-align:center;
+    padding: 2rem 0;
+}
+
+/* Module Style */
+.form{
+    padding:0 2rem; 
+}
+.form__input{
+    padding: 0.5rem 0;
+}
+
+.form__input input{
+    height:30px;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    width: 40%;
+}
+
+.form__submit input{
+    padding: 0.3rem 0.5rem ;
+}
+
+.form__input .error{
+    color: red;
+    padding-left:1rem ;
+    font-weight:600;
+}
