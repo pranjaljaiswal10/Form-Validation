@@ -22,7 +22,7 @@ function formvalidation() {
     errormessage(fname, "*Length of name is too short");
     istrue = false;
   }
-  if (email.value.length > 15)//Check the email field condtion
+  if (email.value.length < 15)//Check the email field condtion
    {
     errormessage(email, "*Email length is too long");
     istrue = false;
